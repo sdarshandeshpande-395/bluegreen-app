@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/sdarshandeshpande-395/bluegreen-app.git'
+                git branch: 'main', url: 'https://github.com/sdarshandeshpande-395/bluegreen-app.git'
             }
         }
 
